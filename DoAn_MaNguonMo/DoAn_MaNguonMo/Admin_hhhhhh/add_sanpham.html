@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Product</title>
+</head>
+<body>
+    <h3>Add New Product</h3>
+    <form action="add_sanpham.php" method="post" enctype="multipart/form-data">
+        <label for="TenSP">TenSP:</label>
+        <input type="text" name="TenSP" id="TenSP" required><br>
+
+        <label for="MoTa">MoTa:</label>
+        <textarea name="MoTa" id="MoTa" required></textarea><br>
+
+        <label for="Gia">Gia:</label>
+        <input type="number" name="Gia" id="Gia" required><br>
+
+        <label for="SoLuongTon">SoLuongTon:</label>
+        <input type="number" name="SoLuongTon" id="SoLuongTon" required><br>
+
+        <label for="MaDM">MaDM:</label>
+        <input type="text" name="MaDM" id="MaDM" required><br>
+
+        <label for="HinhAnh">HinhAnh:</label>
+        <input type="file" name="HinhAnh" id="HinhAnh" required><br>
+        
+
+        <label for="MaNCC">MaNCC :</label>
+        <input type="text" name="MaNCC" id="MaNCC" required><br>
+
+        <label for="ChieuCao">ChieuCao:</label>
+        <input type="text" name="ChieuCao" id="ChieuCao" required><br>
+
+        <label for="DoNang">DoNang:</label>
+        <input type="text" name="DoNang" id="DoNang" required><br>
+
+        <input type="submit" value="Thêm Sản Phẩm ">
+    </form>
+</body>
+</html>
+

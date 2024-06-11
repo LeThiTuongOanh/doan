@@ -1,0 +1,29 @@
+<!-- add_user_form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New User</title>
+</head>
+<body>
+    <h2>Add New User</h2>
+    <form action="create_user.php" method="POST">
+        <label for="MaDN">Mã Đăng Nhập:</label><br>
+        <input type="text" id="MaDN" name="MaDN"><br>
+        <label for="TenDN">Tên đăng nhập:</label><br>
+        <input type="text" id="TenDN" name="TenDN"><br>
+        <label for="HoTen">Họ và tên:</label><br>
+        <input type="text" id="HoTen" name="HoTen"><br>
+        <label for="Role">Vai trò:</label><br>
+        <input type="text" id="Role" name="Role"><br>
+        <label for="GioiTinh">Giới tính:</label><br>
+        <input type="text" id="GioiTinh" name="GioiTinh"><br>
+        <label for="DiaChi">Địa chỉ:</label><br>
+        <input type="text" id="DiaChi" name="DiaChi"><br>
+        <label for="Email">Email:</label><br>
+        <input type="text" id="Email" name="Email"><br><br>
+        <input type="submit" value="Thêm mới">
+    </form>
+</body>
+</html>
