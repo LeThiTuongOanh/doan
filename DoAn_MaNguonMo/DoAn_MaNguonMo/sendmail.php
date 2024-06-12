@@ -20,7 +20,7 @@ try {
 
     // Địa chỉ người gửi và người nhận
     $mail->setFrom('leele010101@gmail.com', 'leele');
-    $mail->addAddress('buihungphuong0218@gmail.com', 'Bui Hung Phuong');
+    $mail->addAddress('hung.seu@gmail.com', 'hung.seu@gmail.com');
 
     // Nội dung email
     $mail->isHTML(true);
